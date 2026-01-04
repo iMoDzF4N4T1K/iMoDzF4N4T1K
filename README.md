@@ -1,4 +1,4 @@
-<h1 align="center">iMoDzF4N4T1K (ιMσDzF4Π4ΤιK)</h1>
+<h1 align="center">iMoDzF4N4TiK (ιMσDzF4Π4ΤιK)</h1>
 
 <p align="center">
   Dev & Moddeur — UI / outils / intégration — focus <b>réalisme</b> et projets concrets.
