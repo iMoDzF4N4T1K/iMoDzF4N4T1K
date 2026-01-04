@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/header.svg" alt="XMB Header" />
+</p>
+
 <h1 align="center">iMoDzF4N4TiK (ιMσDzF4Π4ΤιK)</h1>
 
 <p align="center">
