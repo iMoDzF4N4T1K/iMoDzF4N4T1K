@@ -1,0 +1,373 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="280" viewBox="0 0 1200 280">
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#081a3f"/>
+      <stop offset="0.55" stop-color="#050c1f"/>
+      <stop offset="1" stop-color="#030611"/>
+    </linearGradient>
+
+    <radialGradient id="nebulaCyan" cx="22%" cy="28%" r="60%">
+      <stop offset="0" stop-color="#4de8ff" stop-opacity="0.35"/>
+      <stop offset="0.55" stop-color="#4de8ff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#4de8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaBlue" cx="76%" cy="45%" r="70%">
+      <stop offset="0" stop-color="#2b7cff" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#2b7cff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#2b7cff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaViolet" cx="92%" cy="22%" r="50%">
+      <stop offset="0" stop-color="#8a2be2" stop-opacity="0.26"/>
+      <stop offset="0.60" stop-color="#8a2be2" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#8a2be2" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- PS3/XMB-ish wave gradient -->
+    <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#69f2ff" stop-opacity="0.98"/>
+      <stop offset="0.46" stop-color="#3e9bff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#a86bff" stop-opacity="0.92"/>
+    </linearGradient>
+
+    <!-- Soft glow -->
+    <filter id="xmbGlow" x="-30%" y="-120%" width="160%" height="340%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.55 0" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="sparkleSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+
+    <filter id="textShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.55 0" result="s"/>
+      <feMerge>
+        <feMergeNode in="s"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle scanlines -->
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="6" fill="none"/>
+      <rect y="0" width="6" height="1" fill="#ffffff" opacity="0.04"/>
+    </pattern>
+
+    <!-- Film grain -->
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" />
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.10 0" />
+    </filter>
+  </defs>
+
+  <!-- Background layers -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#nebulaCyan)"/>
+  <rect width="1200" height="280" fill="url(#nebulaBlue)"/>
+  <rect width="1200" height="280" fill="url(#nebulaViolet)"/>
+
+  <!-- Sparkles (PS3 vibe) -->
+  <g filter="url(#sparkleSoft)">
+    <circle cx="767.3" cy="0.5" r="1.00" fill="#ffffff" opacity="0.118"/>
+    <circle cx="812.0" cy="219.1" r="1.05" fill="#ffffff" opacity="0.305"/>
+    <circle cx="262.4" cy="83.4" r="0.55" fill="#ffffff" opacity="0.112"/>
+    <circle cx="653.9" cy="20.3" r="2.50" fill="#ffffff" opacity="0.487"/>
+    <circle cx="967.0" cy="144.4" r="1.11" fill="#ffffff" opacity="0.100"/>
+    <circle cx="403.9" cy="4.7" r="0.67" fill="#ffffff" opacity="0.280"/>
+    <circle cx="968.6" cy="155.7" r="1.47" fill="#ffffff" opacity="0.313"/>
+    <circle cx="662.4" cy="193.5" r="1.61" fill="#ffffff" opacity="0.284"/>
+    <circle cx="845.5" cy="1.4" r="1.46" fill="#ffffff" opacity="0.243"/>
+    <circle cx="279.3" cy="5.4" r="1.00" fill="#ffffff" opacity="0.225"/>
+    <circle cx="444.2" cy="18.7" r="0.98" fill="#ffffff" opacity="0.304"/>
+    <circle cx="731.0" cy="13.2" r="1.81" fill="#ffffff" opacity="0.102"/>
+    <circle cx="1187.4" cy="124.6" r="1.50" fill="#ffffff" opacity="0.238"/>
+    <circle cx="931.2" cy="21.7" r="0.56" fill="#ffffff" opacity="0.142"/>
+    <circle cx="253.2" cy="240.7" r="2.08" fill="#ffffff" opacity="0.142"/>
+    <circle cx="474.8" cy="228.5" r="1.33" fill="#ffffff" opacity="0.129"/>
+    <circle cx="673.6" cy="27.4" r="1.55" fill="#ffffff" opacity="0.293"/>
+    <circle cx="263.2" cy="264.9" r="2.27" fill="#ffffff" opacity="0.151"/>
+    <circle cx="131.6" cy="120.4" r="3.08" fill="#ffffff" opacity="0.306"/>
+    <circle cx="457.9" cy="264.2" r="1.45" fill="#ffffff" opacity="0.312"/>
+    <circle cx="13.8" cy="152.4" r="1.73" fill="#ffffff" opacity="0.200"/>
+    <circle cx="769.2" cy="6.4" r="1.28" fill="#ffffff" opacity="0.178"/>
+    <circle cx="1051.0" cy="27.5" r="1.40" fill="#ffffff" opacity="0.106"/>
+    <circle cx="1044.6" cy="34.1" r="1.65" fill="#ffffff" opacity="0.218"/>
+    <circle cx="915.0" cy="93.1" r="3.04" fill="#ffffff" opacity="0.356"/>
+    <circle cx="389.0" cy="0.3" r="2.17" fill="#ffffff" opacity="0.288"/>
+    <circle cx="369.0" cy="2.1" r="3.33" fill="#ffffff" opacity="0.550"/>
+    <circle cx="583.2" cy="2.8" r="1.87" fill="#ffffff" opacity="0.259"/>
+    <circle cx="570.3" cy="96.2" r="0.98" fill="#ffffff" opacity="0.287"/>
+    <circle cx="254.2" cy="93.1" r="1.81" fill="#ffffff" opacity="0.112"/>
+    <circle cx="1194.2" cy="127.8" r="1.29" fill="#ffffff" opacity="0.195"/>
+    <circle cx="269.6" cy="42.1" r="1.56" fill="#ffffff" opacity="0.120"/>
+    <circle cx="85.2" cy="121.6" r="0.91" fill="#ffffff" opacity="0.295"/>
+    <circle cx="85.0" cy="23.2" r="1.70" fill="#ffffff" opacity="0.116"/>
+    <circle cx="1122.6" cy="102.6" r="1.35" fill="#ffffff" opacity="0.264"/>
+    <circle cx="228.5" cy="5.0" r="1.28" fill="#ffffff" opacity="0.170"/>
+    <circle cx="874.9" cy="135.8" r="2.27" fill="#ffffff" opacity="0.086"/>
+    <circle cx="407.2" cy="206.5" r="0.95" fill="#ffffff" opacity="0.109"/>
+    <circle cx="506.3" cy="30.3" r="0.95" fill="#ffffff" opacity="0.300"/>
+    <circle cx="1033.6" cy="96.4" r="0.59" fill="#ffffff" opacity="0.320"/>
+    <circle cx="1162.8" cy="233.6" r="2.03" fill="#ffffff" opacity="0.103"/>
+    <circle cx="256.5" cy="56.3" r="0.61" fill="#ffffff" opacity="0.159"/>
+    <circle cx="318.2" cy="175.9" r="1.32" fill="#ffffff" opacity="0.170"/>
+    <circle cx="1194.5" cy="98.0" r="1.79" fill="#ffffff" opacity="0.100"/>
+    <circle cx="1162.5" cy="105.1" r="2.36" fill="#ffffff" opacity="0.458"/>
+    <circle cx="701.0" cy="82.7" r="2.03" fill="#ffffff" opacity="0.101"/>
+    <circle cx="96.1" cy="15.2" r="1.57" fill="#ffffff" opacity="0.236"/>
+    <circle cx="143.9" cy="218.3" r="0.94" fill="#ffffff" opacity="0.215"/>
+    <circle cx="503.1" cy="106.5" r="1.44" fill="#ffffff" opacity="0.303"/>
+    <circle cx="859.4" cy="23.3" r="1.21" fill="#ffffff" opacity="0.235"/>
+    <circle cx="379.4" cy="163.8" r="0.63" fill="#ffffff" opacity="0.179"/>
+    <circle cx="1195.3" cy="3.1" r="0.88" fill="#ffffff" opacity="0.129"/>
+    <circle cx="1057.0" cy="213.7" r="1.17" fill="#ffffff" opacity="0.101"/>
+    <circle cx="844.2" cy="115.3" r="3.64" fill="#ffffff" opacity="0.414"/>
+    <circle cx="980.5" cy="34.2" r="1.69" fill="#ffffff" opacity="0.304"/>
+    <circle cx="138.5" cy="6.0" r="1.50" fill="#ffffff" opacity="0.131"/>
+    <circle cx="861.1" cy="17.8" r="1.64" fill="#ffffff" opacity="0.129"/>
+    <circle cx="1086.4" cy="200.2" r="0.67" fill="#ffffff" opacity="0.170"/>
+    <circle cx="4.3" cy="171.0" r="1.65" fill="#ffffff" opacity="0.128"/>
+    <circle cx="662.0" cy="62.8" r="0.52" fill="#ffffff" opacity="0.080"/>
+    <circle cx="1084.7" cy="95.0" r="2.00" fill="#ffffff" opacity="0.211"/>
+    <circle cx="152.9" cy="36.0" r="2.12" fill="#ffffff" opacity="0.267"/>
+    <circle cx="1078.7" cy="18.7" r="0.95" fill="#ffffff" opacity="0.087"/>
+    <circle cx="1061.0" cy="57.6" r="1.62" fill="#ffffff" opacity="0.100"/>
+    <circle cx="1037.5" cy="255.3" r="3.14" fill="#ffffff" opacity="0.521"/>
+    <circle cx="883.9" cy="40.9" r="2.18" fill="#ffffff" opacity="0.269"/>
+    <circle cx="972.9" cy="28.1" r="1.92" fill="#ffffff" opacity="0.088"/>
+    <circle cx="1030.3" cy="20.7" r="1.97" fill="#ffffff" opacity="0.180"/>
+    <circle cx="954.4" cy="21.5" r="0.54" fill="#ffffff" opacity="0.110"/>
+    <circle cx="1037.2" cy="251.2" r="1.00" fill="#ffffff" opacity="0.227"/>
+    <circle cx="1177.4" cy="92.2" r="2.19" fill="#ffffff" opacity="0.090"/>
+    <circle cx="214.3" cy="249.3" r="0.98" fill="#ffffff" opacity="0.088"/>
+    <circle cx="874.3" cy="37.1" r="1.59" fill="#ffffff" opacity="0.193"/>
+    <circle cx="691.9" cy="26.0" r="1.78" fill="#ffffff" opacity="0.060"/>
+    <circle cx="646.1" cy="152.0" r="1.84" fill="#ffffff" opacity="0.234"/>
+    <circle cx="84.0" cy="132.7" r="1.09" fill="#ffffff" opacity="0.142"/>
+    <circle cx="863.7" cy="34.4" r="1.06" fill="#ffffff" opacity="0.166"/>
+    <circle cx="354.8" cy="8.0" r="1.26" fill="#ffffff" opacity="0.304"/>
+    <circle cx="1083.4" cy="116.6" r="1.67" fill="#ffffff" opacity="0.364"/>
+    <circle cx="344.3" cy="63.3" r="1.54" fill="#ffffff" opacity="0.230"/>
+    <circle cx="530.6" cy="19.3" r="1.35" fill="#ffffff" opacity="0.294"/>
+    <circle cx="203.6" cy="4.0" r="1.43" fill="#ffffff" opacity="0.225"/>
+    <circle cx="982.1" cy="163.5" r="1.71" fill="#ffffff" opacity="0.118"/>
+    <circle cx="29.3" cy="24.3" r="2.17" fill="#ffffff" opacity="0.506"/>
+    <circle cx="497.3" cy="121.2" r="0.85" fill="#ffffff" opacity="0.241"/>
+    <circle cx="292.8" cy="129.9" r="0.51" fill="#ffffff" opacity="0.255"/>
+    <circle cx="127.9" cy="62.1" r="0.82" fill="#ffffff" opacity="0.309"/>
+    <circle cx="60.3" cy="25.1" r="2.03" fill="#ffffff" opacity="0.179"/>
+    <circle cx="801.1" cy="260.5" r="1.57" fill="#ffffff" opacity="0.307"/>
+    <circle cx="735.2" cy="151.9" r="1.41" fill="#ffffff" opacity="0.276"/>
+    <circle cx="1076.6" cy="160.8" r="1.35" fill="#ffffff" opacity="0.127"/>
+    <circle cx="765.2" cy="169.0" r="1.44" fill="#ffffff" opacity="0.223"/>
+    <circle cx="93.0" cy="31.6" r="0.99" fill="#ffffff" opacity="0.143"/>
+    <circle cx="166.0" cy="22.1" r="2.80" fill="#ffffff" opacity="0.439"/>
+    <circle cx="489.1" cy="94.1" r="1.25" fill="#ffffff" opacity="0.114"/>
+    <circle cx="1085.8" cy="106.6" r="1.75" fill="#ffffff" opacity="0.283"/>
+    <circle cx="456.5" cy="0.0" r="1.13" fill="#ffffff" opacity="0.256"/>
+    <circle cx="1144.1" cy="60.6" r="1.85" fill="#ffffff" opacity="0.202"/>
+    <circle cx="264.6" cy="20.2" r="1.28" fill="#ffffff" opacity="0.068"/>
+    <circle cx="815.0" cy="57.1" r="0.80" fill="#ffffff" opacity="0.182"/>
+    <circle cx="746.7" cy="0.6" r="1.93" fill="#ffffff" opacity="0.372"/>
+    <circle cx="771.3" cy="8.9" r="1.33" fill="#ffffff" opacity="0.073"/>
+    <circle cx="254.0" cy="39.7" r="1.87" fill="#ffffff" opacity="0.159"/>
+    <circle cx="998.3" cy="25.6" r="0.65" fill="#ffffff" opacity="0.065"/>
+    <circle cx="1199.9" cy="44.6" r="1.67" fill="#ffffff" opacity="0.263"/>
+    <circle cx="905.1" cy="243.6" r="0.86" fill="#ffffff" opacity="0.065"/>
+    <circle cx="151.5" cy="134.5" r="1.52" fill="#ffffff" opacity="0.117"/>
+    <circle cx="920.3" cy="12.8" r="1.59" fill="#ffffff" opacity="0.254"/>
+    <circle cx="983.2" cy="250.2" r="0.69" fill="#ffffff" opacity="0.067"/>
+    <circle cx="812.8" cy="247.4" r="1.94" fill="#ffffff" opacity="0.443"/>
+    <circle cx="828.7" cy="120.4" r="0.68" fill="#ffffff" opacity="0.261"/>
+    <circle cx="720.5" cy="7.3" r="2.27" fill="#ffffff" opacity="0.263"/>
+    <circle cx="514.1" cy="49.2" r="1.41" fill="#ffffff" opacity="0.149"/>
+    <circle cx="986.8" cy="5.8" r="2.23" fill="#ffffff" opacity="0.225"/>
+    <circle cx="848.8" cy="64.7" r="1.82" fill="#ffffff" opacity="0.311"/>
+    <circle cx="969.8" cy="92.8" r="1.37" fill="#ffffff" opacity="0.173"/>
+    <circle cx="322.1" cy="202.5" r="2.00" fill="#ffffff" opacity="0.083"/>
+    <circle cx="292.6" cy="72.3" r="2.56" fill="#ffffff" opacity="0.285"/>
+    <circle cx="1021.1" cy="14.7" r="0.88" fill="#ffffff" opacity="0.267"/>
+    <circle cx="1056.4" cy="145.5" r="1.00" fill="#ffffff" opacity="0.063"/>
+    <circle cx="102.7" cy="152.2" r="1.38" fill="#ffffff" opacity="0.257"/>
+    <circle cx="775.1" cy="79.3" r="1.93" fill="#ffffff" opacity="0.084"/>
+    <circle cx="830.1" cy="35.6" r="1.55" fill="#ffffff" opacity="0.183"/>
+    <circle cx="510.6" cy="161.6" r="1.10" fill="#ffffff" opacity="0.243"/>
+    <circle cx="301.7" cy="7.3" r="0.85" fill="#ffffff" opacity="0.091"/>
+    <circle cx="914.6" cy="15.1" r="0.89" fill="#ffffff" opacity="0.186"/>
+    <circle cx="1171.9" cy="88.8" r="1.01" fill="#ffffff" opacity="0.086"/>
+    <circle cx="273.0" cy="14.3" r="0.53" fill="#ffffff" opacity="0.199"/>
+    <circle cx="1169.2" cy="97.3" r="1.76" fill="#ffffff" opacity="0.093"/>
+    <circle cx="589.1" cy="211.0" r="1.53" fill="#ffffff" opacity="0.182"/>
+    <circle cx="221.2" cy="1.7" r="2.19" fill="#ffffff" opacity="0.184"/>
+    <circle cx="480.8" cy="3.2" r="1.63" fill="#ffffff" opacity="0.074"/>
+    <circle cx="675.4" cy="35.1" r="2.29" fill="#ffffff" opacity="0.091"/>
+    <circle cx="727.6" cy="178.5" r="0.91" fill="#ffffff" opacity="0.196"/>
+    <circle cx="531.3" cy="205.9" r="2.28" fill="#ffffff" opacity="0.139"/>
+    <circle cx="731.6" cy="159.5" r="2.21" fill="#ffffff" opacity="0.114"/>
+    <circle cx="792.5" cy="11.4" r="1.30" fill="#ffffff" opacity="0.143"/>
+    <circle cx="540.6" cy="109.7" r="1.02" fill="#ffffff" opacity="0.120"/>
+    <circle cx="843.6" cy="69.5" r="1.74" fill="#ffffff" opacity="0.300"/>
+    <circle cx="750.1" cy="131.7" r="2.18" fill="#ffffff" opacity="0.171"/>
+  </g>
+
+  <!-- XMB wave ribbons -->
+  <g filter="url(#xmbGlow)">
+    <!-- deep ribbon -->
+    <path d="M-10 205
+             C 110 150, 250 268, 390 210
+             S 670 152, 805 205
+             S 1090 268, 1210 210"
+          fill="none" stroke="url(#waveGrad)" stroke-width="14" stroke-linecap="round" opacity="0.28"/>
+    <!-- main ribbon -->
+    <path d="M-10 190
+             C 130 132, 280 252, 430 190
+             S 710 132, 860 190
+             S 1070 252, 1210 190"
+          fill="none" stroke="url(#waveGrad)" stroke-width="8" stroke-linecap="round" opacity="0.78"/>
+    <!-- highlight -->
+    <path d="M-10 184
+             C 130 128, 280 248, 430 184
+             S 710 128, 860 184
+             S 1070 248, 1210 184"
+          fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" opacity="0.22"/>
+    <!-- upper faint ribbon -->
+    <path d="M-10 150
+             C 150 110, 320 190, 480 150
+             S 760 110, 920 150
+             S 1070 190, 1210 150"
+          fill="none" stroke="#bfefff" stroke-width="3.2" stroke-linecap="round" opacity="0.10"/>
+  </g>
+
+  <!-- Scanlines & grain -->
+  <rect width="1200" height="280" fill="url(#scan)" opacity="0.35"/>
+  <rect width="1200" height="280" filter="url(#grain)" opacity="0.40"/>
+
+  <!-- Title -->
+  <g filter="url(#textShadow)">
+    <text x="600" y="108" text-anchor="middle"
+          font-family="Segoe UI, DejaVu Sans, Arial, sans-serif"
+          font-size="52" fill="#eef6ff" font-weight="900" letter-spacing="1">
+      iMoDzF4N4T1K
+    </text>
+    <text x="600" y="146" text-anchor="middle"
+          font-family="Segoe UI, DejaVu Sans, Arial, sans-serif"
+          font-size="16" fill="#d7e7ff" opacity="0.95" font-weight="700">
+      ιMσDzF4Π4ΤιK • Dev &amp; Moddeur • PS3/XMB • UI / Tools / Modding
+    </text>
+    <text x="600" y="170" text-anchor="middle"
+          font-family="Segoe UI, DejaVu Sans, Arial, sans-serif"
+          font-size="13" fill="#bcd6ff" opacity="0.78" font-weight="600">
+      Live waves: imodzf4n4t1k.github.io/PlayStation-3-XMB-Web
+    </text>
+  </g>
+
+  <!-- XMB Buttons overlay (clickable) -->
+  <defs>
+    <linearGradient id="xmb_btn_left" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2b2b"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="xmb_btn_open" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2ea44f"/>
+      <stop offset="1" stop-color="#1f7a39"/>
+    </linearGradient>
+    <linearGradient id="xmb_btn_browse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181717"/>
+      <stop offset="1" stop-color="#0b0b0b"/>
+    </linearGradient>
+    <linearGradient id="xmb_btn_bars" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b3d91"/>
+      <stop offset="1" stop-color="#072a66"/>
+    </linearGradient>
+    <linearGradient id="xmb_btn_discord" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5865F2"/>
+      <stop offset="1" stop-color="#3b46c6"/>
+    </linearGradient>
+
+    <filter id="xmb_btn_shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <style>
+      .xmb_btn_text { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-weight: 900; fill: #ffffff; font-size: 12.5px; letter-spacing: .4px; }
+      .xmb_btn_text2 { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-weight: 900; fill: #ffffff; font-size: 12px; letter-spacing: .7px; }
+      .xmb_btn_sub { font-family: Segoe UI, DejaVu Sans, Arial, sans-serif; font-weight: 900; fill: #eaf2ff; font-size: 10.5px; opacity: .98; }
+      .xmb_icon { fill: #ffffff; opacity: .9; }
+    </style>
+  </defs>
+
+  <g id="xmb_buttons" filter="url(#xmb_btn_shadow)" transform="translate(0,-30)">
+    <!-- Layout: 4 badges, 250x34 each (left 160 + right 90), gap 16 -->
+    <!-- Total width: 4*250 + 3*16 = 1048; left margin = 76 -->
+
+    <!-- Badge 1: Demo -->
+    <a xlink:href="https://imodzf4n4t1k.github.io/PlayStation-3-XMB-Web/" href="https://imodzf4n4t1k.github.io/PlayStation-3-XMB-Web/">
+      <rect x="76" y="236" width="160" height="34" rx="9" fill="url(#xmb_btn_left)" stroke="#ffffff" stroke-opacity="0.18"/>
+      <rect x="236" y="236" width="90" height="34" rx="9" fill="url(#xmb_btn_open)" stroke="#ffffff" stroke-opacity="0.18"/>
+
+      <!-- play icon -->
+      <path class="xmb_icon" d="M92 248 L92 258 L102 253 Z"/>
+
+      <text x="166" y="258" text-anchor="middle" class="xmb_btn_text">LIVE XMB DEMO</text>
+      <text x="281" y="258" text-anchor="middle" class="xmb_btn_text2">OPEN</text>
+    </a>
+
+    <!-- Badge 2: Repositories -->
+    <a xlink:href="https://github.com/iMoDzF4N4T1K?tab=repositories" href="https://github.com/iMoDzF4N4T1K?tab=repositories">
+      <rect x="342" y="236" width="160" height="34" rx="9" fill="url(#xmb_btn_left)" stroke="#ffffff" stroke-opacity="0.18"/>
+      <rect x="502" y="236" width="90" height="34" rx="9" fill="url(#xmb_btn_browse)" stroke="#ffffff" stroke-opacity="0.18"/>
+
+      <!-- stack icon -->
+      <rect class="xmb_icon" x="356" y="246" width="12" height="6" rx="1.2"/>
+      <rect class="xmb_icon" x="356" y="254" width="12" height="6" rx="1.2" opacity="0.75"/>
+
+      <text x="432" y="258" text-anchor="middle" class="xmb_btn_text">REPOSITORIES</text>
+      <text x="547" y="258" text-anchor="middle" class="xmb_btn_text2">BROWSE</text>
+    </a>
+
+    <!-- Badge 3: Skills -->
+    <a xlink:href="https://github.com/iMoDzF4N4T1K/iMoDzF4N4TiK#-domaines-dexpertise" href="https://github.com/iMoDzF4N4T1K/iMoDzF4N4TiK#-domaines-dexpertise">
+      <rect x="608" y="236" width="160" height="34" rx="9" fill="url(#xmb_btn_left)" stroke="#ffffff" stroke-opacity="0.18"/>
+      <rect x="768" y="236" width="90" height="34" rx="9" fill="url(#xmb_btn_bars)" stroke="#ffffff" stroke-opacity="0.18"/>
+
+      <!-- simple puzzle-ish icon -->
+      <path class="xmb_icon" d="M622 247 h10 a2 2 0 0 1 2 2 v2 h-2
+                               a2 2 0 0 0 -2 2 a2 2 0 0 0 2 2 h2 v2
+                               a2 2 0 0 1 -2 2 h-10 a2 2 0 0 1 -2 -2 v-10 a2 2 0 0 1 2 -2 z"/>
+
+      <text x="688" y="258" text-anchor="middle" class="xmb_btn_text">XMB SKILLS</text>
+      <text x="813" y="258" text-anchor="middle" class="xmb_btn_text2">BARS</text>
+    </a>
+
+    <!-- Badge 4: Discord -->
+    <a xlink:href="https://github.com/iMoDzF4N4T1K/iMoDzF4N4TiK#-contact" href="https://github.com/iMoDzF4N4T1K/iMoDzF4N4TiK#-contact">
+      <rect x="874" y="236" width="160" height="34" rx="9" fill="url(#xmb_btn_left)" stroke="#ffffff" stroke-opacity="0.18"/>
+      <rect x="1034" y="236" width="90" height="34" rx="9" fill="url(#xmb_btn_discord)" stroke="#ffffff" stroke-opacity="0.18"/>
+
+      <!-- chat bubble icon -->
+      <path class="xmb_icon" d="M888 247 h10 a2 2 0 0 1 2 2 v6 a2 2 0 0 1 -2 2 h-6 l-3 3 v-3 h-1 a2 2 0 0 1 -2 -2 v-6 a2 2 0 0 1 2 -2 z"/>
+
+      <text x="954" y="258" text-anchor="middle" class="xmb_btn_text">DISCORD</text>
+      <text x="1079" y="258" text-anchor="middle" class="xmb_btn_sub">ιMσDzF4Π4ΤιK</text>
+    </a>
+  </g>
+
+</svg>

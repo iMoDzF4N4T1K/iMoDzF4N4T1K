@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="72" viewBox="0 0 760 72">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#071431"/>
+      <stop offset="1" stop-color="#030713"/>
+    </linearGradient>
+
+    <radialGradient id="orbCyan" cx="30%" cy="20%" r="60%">
+      <stop offset="0" stop-color="#4de8ff" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#4de8ff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#4de8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orbOrange" cx="85%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#FB923C" stop-opacity="0.28"/>
+      <stop offset="0.55" stop-color="#FB923C" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#FB923C" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <!-- Blender gradient (cyan touch -> orange) -->
+    <linearGradient id="fill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4de8ff"/>
+      <stop offset="0.35" stop-color="#F5792A"/>
+      <stop offset="1" stop-color="#FB923C"/>
+    </linearGradient>
+
+    <linearGradient id="shineTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.00"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="0.65" stop-color="#ffffff" stop-opacity="0.00"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="waves" width="200" height="22" patternUnits="userSpaceOnUse">
+      <path d="M-20 12 C 25 3, 70 21, 115 12 S 205 3, 250 12"
+            fill="none" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.2"/>
+      <path d="M-20 16 C 25 7, 70 25, 115 16 S 205 7, 250 16"
+            fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.0"/>
+    </pattern>
+
+    <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="6" height="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.60 0" result="g"/>
+      <feMerge>
+        <feMergeNode in="g"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" />
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.10 0" />
+    </filter>
+
+    <!-- 60% of 716 = 429.6 -> 430 -->
+    <clipPath id="clipProgress">
+      <rect x="22" y="36" width="430" height="22" rx="11"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="760" height="72" rx="20" fill="url(#bg)"/>
+  <rect x="1" y="1" width="758" height="70" rx="19" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
+
+  <rect x="0" y="0" width="760" height="72" fill="url(#orbCyan)"/>
+  <rect x="0" y="0" width="760" height="72" fill="url(#orbOrange)"/>
+
+  <rect x="10" y="10" width="740" height="52" rx="16" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.08"/>
+
+  <text x="26" y="28" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="14" fill="#eaf2ff" font-weight="700">
+    🧱 Blender
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="22" y="36" width="716" height="22" rx="11" fill="#091633" stroke="#ffffff" stroke-opacity="0.10"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="22" y="36" width="430" height="22" rx="11" fill="url(#fill)"/>
+  </g>
+
+  <g clip-path="url(#clipProgress)">
+    <rect x="22" y="36" width="430" height="22" fill="url(#waves)" opacity="0.55"/>
+    <rect x="22" y="36" width="430" height="22" fill="url(#sweep)" transform="skewX(-18) translate(-40,0)" opacity="0.75"/>
+  </g>
+
+  <rect x="22" y="36" width="430" height="11" rx="11" fill="url(#shineTop)"/>
+
+  <g>
+    <rect x="468" y="39" width="200" height="16" rx="8" fill="#06102a" fill-opacity="0.40" stroke="#ffffff" stroke-opacity="0.20"/>
+    <text x="568" y="51" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="11" fill="#ffffff" font-weight="800">
+      LEVEL: INTERMÉDIAIRE
+    </text>
+  </g>
+
+  <text x="724" y="52" text-anchor="end" font-family="Segoe UI, DejaVu Sans, Arial, sans-serif" font-size="12" fill="#ffffff" font-weight="900">
+    60%
+  </text>
+
+  <rect x="10" y="10" width="740" height="52" rx="16" fill="url(#scan)" opacity="0.30"/>
+  <rect x="10" y="10" width="740" height="52" rx="16" filter="url(#grain)" opacity="0.22"/>
+</svg>
