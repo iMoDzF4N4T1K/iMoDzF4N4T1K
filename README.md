@@ -38,35 +38,149 @@ Je touche à tout ce qui fait un projet solide :
 
 ## 🧠 Compétences
 
-### Langages / Formats
+<p align="center">
+  <b>⚙️ TOOLCHAIN</b> • <b>🎮 MODDING PIPELINE</b> • <b>🧩 UI / INTÉGRATION</b>
+</p>
+
+<p align="center"><b>⚙️ Core Stack (dev & scripts)</b></p>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-- **JBEAM** (BeamNG)
-- **XML / configs / defs** (selon projets)
-- Autres formats “modding” (selon les jeux / plateformes)
-
-### 3D / Contenu
+<p align="center"><b>🧩 Front / UI Layer</b></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Blender-Interm%C3%A9diaire-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </p>
 
+<p align="center"><b>🛠️ Toolchain / DevOps</b></p>
 <p align="center">
-  <img src="assets/xmb/divider_1.svg" alt="divider" height="100" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
 
-## 🏆 Domaines d’expertise
-
+<p align="center"><b>🗄️ Data / Storage</b></p>
 <p align="center">
-  <img src="assets/progress/modding-consoles-xmb-ultra.svg" />
-  <img src="assets/progress/discord-server-xmb-ultra.svg" />
-  <img src="assets/progress/programming-xmb-ultra.svg" />
-  <img src="assets/progress/blender-xmb-ultra.svg" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
+
+<p align="center"><b>💬 Community / Bots</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discorddotjs&logoColor=white" />
+</p>
+
+<p align="center"><b>🎮 Engines / Platforms</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" />
+  <img src="https://img.shields.io/badge/Steam_Workshop-1B2838?style=for-the-badge&logo=steam&logoColor=white" />
+  <img src="https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" />
+  <img src="https://img.shields.io/badge/GIANTS_Editor-2E8B57?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SCS_Tools-0B3D91?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Farming_Simulator-4CAF50?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/BeamNG.drive-1E90FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Euro_Truck_Simulator_2-FF9800?style=for-the-badge" />
+</p>
+
+<p align="center"><b>📁 Modding Formats (configs / defs / scripts)</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/XML-005FAD?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/YAML-CC0000?style=for-the-badge&logo=yaml&logoColor=white" />
+  <img src="https://img.shields.io/badge/JSON-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/INI-2B2B2B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CFG-2B2B2B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TXT-2B2B2B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/KND-4B4B4B?style=for-the-badge" />
+  <br/>
+  <img src="https://img.shields.io/badge/JBEAM-555555?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SII-6C2DC7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/TOBJ-0078D6?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/I3D-2E8B57?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SHAPES-8B4513?style=for-the-badge" />
+</p>
+
+- **BeamNG** : JBEAM / Lua
+- **ETS2** : SII / TOBJ
+- **FS** : XML / I3D / SHAPES
+- Config & docs : XML / YAML *(YML)* / JSON / Markdown *(MD)*
+- Divers : INI / CFG / TXT / KND (selon projets)
+
+<p align="center"><b>🧱 3D / Assets Pipeline</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
+  <img src="https://img.shields.io/badge/FBX-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OBJ-6D6D6D?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DAE-9C27B0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/glTF-FFC107?style=for-the-badge" />
+</p>
+
+<p align="center"><b>🎨 Textures / UI Graphics</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/DDS-263238?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PNG-A22846?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/JPG-607D8B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SVG-FFB13B?style=for-the-badge&logo=svg&logoColor=black" />
+  <img src="https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" />
+  <img src="https://img.shields.io/badge/Substance_3D_Painter-FF9800?style=for-the-badge" />
+</p>
+
+<p align="center"><b>🔊 Audio (FX / engines / UI)</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/FMOD-000000?style=for-the-badge&logo=fmod&LogoColor=white" />
+  <img src="https://img.shields.io/badge/WAV-1E88E5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OGG-43A047?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Audacity-0000CC?style=for-the-badge&logo=audacity&logoColor=white" />
+</p>
+
+<p align="center"><b>📦 Build / Release</b></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/CI%2FCD-111111?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/GitHub_Releases-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/SemVer-3F51B5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Changelog-0AA344?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-795548?style=for-the-badge" />
+  <br/>
+  <img src="https://img.shields.io/badge/ZIP-424242?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/7Z-6A1B9A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RAR-1565C0?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Installer-607D8B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Checksum_SHA256-263238?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Docs-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+  <img src="https://img.shields.io/badge/Versioning-263238?style=for-the-badge" />
+</p>
+
+<details>
+  <summary><b>➕ Extra Stack (si besoin)</b></summary>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+    <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+    <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+    <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  </p>
+</details>
 
 <p align="center">
   <img src="assets/xmb/divider_1.svg" alt="divider" height="100" />
