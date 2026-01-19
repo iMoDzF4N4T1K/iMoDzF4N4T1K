@@ -38,11 +38,11 @@ Je touche à tout ce qui fait un projet solide :
 
 ## 🧠 Compétences
 
-<p align="center">
-  <b>⚙️ TOOLCHAIN</b> • <b>🎮 MODDING PIPELINE</b> • <b>🧩 UI / INTÉGRATION</b>
-</p>
+<h2 align="center">
+  ⚙️ TOOLCHAIN • 🎮 MODDING PIPELINE • 🧩 UI / INTÉGRATION
+</h2>
 
-<p align="center"><b>⚙️ Core Stack (dev & scripts)</b></p>
+<h3 align="center">⚙️ Core Stack (dev & scripts)</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -52,7 +52,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-<p align="center"><b>🧩 Front / UI Layer</b></p>
+<h3 align="center">🧩 Front / UI Layer</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
@@ -62,7 +62,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </p>
 
-<p align="center"><b>🛠️ Toolchain / DevOps</b></p>
+<h3 align="center">🛠️ Toolchain / DevOps</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -72,7 +72,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
 </p>
 
-<p align="center"><b>🗄️ Data / Storage</b></p>
+<h3 align="center">🗄️ Data / Storage</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -80,13 +80,13 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
 
-<p align="center"><b>💬 Community / Bots</b></p>
+<h3 align="center">💬 Community / Bots</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
   <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discorddotjs&logoColor=white" />
 </p>
 
-<p align="center"><b>🎮 Engines / Platforms</b></p>
+<h3 align="center">🎮 Engines / Platforms</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" />
   <img src="https://img.shields.io/badge/Steam_Workshop-1B2838?style=for-the-badge&logo=steam&logoColor=white" />
@@ -99,7 +99,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/Euro_Truck_Simulator_2-FF9800?style=for-the-badge" />
 </p>
 
-<p align="center"><b>📁 Modding Formats (configs / defs / scripts)</b></p>
+<h3 align="center">📁 Modding Formats (configs / defs / scripts)</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/XML-005FAD?style=for-the-badge" />
   <img src="https://img.shields.io/badge/YAML-CC0000?style=for-the-badge&logo=yaml&logoColor=white" />
@@ -123,7 +123,7 @@ Je touche à tout ce qui fait un projet solide :
 - Config & docs : XML / YAML *(YML)* / JSON / Markdown *(MD)*
 - Divers : INI / CFG / TXT / KND (selon projets)
 
-<p align="center"><b>🧱 3D / Assets Pipeline</b></p>
+<h3 align="center">🧱 3D / Assets Pipeline</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" />
   <img src="https://img.shields.io/badge/FBX-FF6F00?style=for-the-badge" />
@@ -132,7 +132,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/glTF-FFC107?style=for-the-badge" />
 </p>
 
-<p align="center"><b>🎨 Textures / UI Graphics</b></p>
+<h3 align="center">🎨 Textures / UI Graphics</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/DDS-263238?style=for-the-badge" />
   <img src="https://img.shields.io/badge/PNG-A22846?style=for-the-badge" />
@@ -143,7 +143,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/Substance_3D_Painter-FF9800?style=for-the-badge" />
 </p>
 
-<p align="center"><b>🔊 Audio (FX / engines / UI)</b></p>
+<h3 align="center">🔊 Audio (FX / engines / UI)</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/FMOD-000000?style=for-the-badge&logo=fmod&LogoColor=white" />
   <img src="https://img.shields.io/badge/WAV-1E88E5?style=for-the-badge" />
@@ -151,7 +151,7 @@ Je touche à tout ce qui fait un projet solide :
   <img src="https://img.shields.io/badge/Audacity-0000CC?style=for-the-badge&logo=audacity&logoColor=white" />
 </p>
 
-<p align="center"><b>📦 Build / Release</b></p>
+<h3 align="center">📦 Build / Release</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/CI%2FCD-111111?style=for-the-badge" />
@@ -185,6 +185,7 @@ Je touche à tout ce qui fait un projet solide :
 <p align="center">
   <img src="assets/xmb/divider_1.svg" alt="divider" height="100" />
 </p>
+
 
 ## ⭐ Projets mis en avant
 
